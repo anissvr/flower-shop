@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+}
+header{
+    background-color: #fceef1;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    padding:50px 100px 0px;
+    gap: 50px;
+}
+.img-area img{
+    width: 400px;
+}
+.text-area{
+    padding: 0px 60px;
+}
+.text-area h1{
+    font-size: 60px;
+}
+.text-area p{
+    margin: 20px 0;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #e55473;
+    color: white;
+    border-radius: 5px;
+}
