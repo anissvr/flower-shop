@@ -34,16 +34,16 @@ header{
     border-radius: 5px;
 }
 /*============ feature-area ========*/
-.feature-area{
+.feature-area, .about-us{
     width: 80%;
     margin:80px auto;
     text-align: center;
 }
-.feature-area h2{
+.feature-area h2,.about-us h2{
     font-size: 30px;
     margin: 30px 0;
 }
-.feature-area p{
+.feature-area p,.about-us > p{
     width: 600px;
     margin: 0 auto 10px;
 }
@@ -82,4 +82,27 @@ header{
     display: inline-block;
     color: black;
     font-weight: 400;
+}
+
+/*=========== about us ======= */
+.about-content{
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    margin: 60px 0;
+    
+}
+.about-content h3{
+    font-size: 30px;
+    
+    
+}
+.about-content p{
+    line-height: 28px;
+    margin: 20px 0;
+    
+}
+.about-content img{
+    width: 500px;
+    border-radius: 9px;
 }
