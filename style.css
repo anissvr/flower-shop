@@ -34,16 +34,16 @@ header{
     border-radius: 5px;
 }
 /*============ feature-area ========*/
-.feature-area, .about-us{
+.feature-area, .about-us,.instagram-area{
     width: 80%;
     margin:80px auto;
     text-align: center;
 }
-.feature-area h2,.about-us h2{
+.feature-area h2,.about-us h2,.instagram-area h2{
     font-size: 30px;
     margin: 30px 0;
 }
-.feature-area p,.about-us > p{
+.feature-area p,.about-us > p, .instagram-area >p{
     width: 600px;
     margin: 0 auto 10px;
 }
@@ -87,7 +87,7 @@ header{
 /*=========== about us ======= */
 .about-content{
     display: flex;
-    gap: 20px;
+    gap: 50px;
     text-align: left;
     margin: 60px 0;
     
@@ -105,4 +105,37 @@ header{
 .about-content img{
     width: 500px;
     border-radius: 9px;
+}
+/*========= deal area======== */
+.deal-area{
+    background-color: #fdf6f8;
+}
+.deal-section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 30px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.deal-content{
+    text-align: center;
+    width: 600px;
+}
+.deal-content p{
+    margin: 20px 0;
+}
+.color{
+    color: #fb083d;
+}
+/* ========instagram-area====== */
+/* .img-box{
+    display: flex;
+
+} */
+.img-box img {
+    width: 230px;
+    margin: 10px;
+    border-radius: 7px;
 }
