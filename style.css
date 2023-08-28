@@ -156,3 +156,15 @@ header{
     border-radius: 5px;
     box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.222);
 }
+/*========= footer-area =====*/
+footer{
+    background-color: #111010;
+    padding: 90px 0;
+    text-align: center;
+    color: white;
+}
+footer p{
+    font-size: 12px;
+    width: 500px;
+    margin:15px auto;
+}
