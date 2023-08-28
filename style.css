@@ -29,7 +29,57 @@ header{
     display: inline-block;
     text-decoration: none;
     padding: 10px 25px;
-    background-color: #e55473;
+    background-color: #fb083d;
     color: white;
     border-radius: 5px;
+}
+/*============ feature-area ========*/
+.feature-area{
+    width: 80%;
+    margin:80px auto;
+    text-align: center;
+}
+.feature-area h2{
+    font-size: 30px;
+    margin: 30px 0;
+}
+.feature-area p{
+    width: 600px;
+    margin: 0 auto 10px;
+}
+.feature-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.flower-1,.flower-2,.flower-3{
+    width: 300px;
+    padding: 20px 10px 0px;
+    border-radius:45% 45% 0px 0px ;
+    margin: 30px 20px;
+}
+.flower-1{
+    background-color: #f1dde7;
+}
+.flower-2{
+    background-color: #d9eff0;
+}
+.flower-3{
+    background-color: #e3ebdb;
+}
+.flower-1 img , .flower-2 img , .flower-3 img{
+    width: 200px;
+    height: 300px;
+    margin: auto;
+}
+.link-area{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.link-area a{
+    display: inline-block;
+    color: black;
+    font-weight: 400;
 }
